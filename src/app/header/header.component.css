@@ -105,8 +105,10 @@
 .custom-container {
     width: 100%;
     max-width: 100%; /* Ensure it doesn't exceed the viewport width */
-    padding-left: 15px; /* Adjust padding as necessary */
-    padding-right: 15px; /* Adjust padding as necessary */
-    margin-left: auto;
-    margin-right: auto;
+    /* padding-left: 15px; 
+    padding-right: 15px;  */
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 0;
+    margin: 0;
   }
