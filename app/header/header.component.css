@@ -1,0 +1,112 @@
+/* Base styles for the navbar */
+.navbar {
+    padding: 5px; /* Reduce padding */
+    border: 1px solid darkgray;
+  }
+  
+  /* Container for logo and nav links */
+  .header-logo-container {
+    width: 100%;
+    padding: 5px; /* Reduce padding */
+  }
+  
+  /* Base styles for navigation links */
+  .nav-link {
+    color: blue; /* Initial color */
+    margin-right: 10px; /* Reduce margin */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    font-size: 14px; /* Adjust font size if necessary */
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-link:hover {
+    color: rgb(231, 235, 29) !important; /* Color on hover */
+  }
+  
+  /* Styles specifically targeting mat-button */
+  .mat-button, .mat-button .mat-button-wrapper {
+    color: blue !important;
+  }
+  
+  /* Hover effect for mat-button */
+  .mat-button:hover, .mat-button .mat-button-wrapper:hover {
+    text-decoration: underline;
+  }
+  
+  /* Logo styling */
+  .logo {
+    height: 40px; /* Adjust as necessary to reduce size */
+  }
+  
+  /* Green text styling */
+  .text-green {
+    color: #067c27; /* Green text color */
+    font-weight: bold; /* Makes the font bold */
+    font-size: 12px; /* Adjust font size to reduce space */
+  }
+  
+  /* Margin left auto to push content to the right */
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  /* Flex container with align items center */
+  .d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Fixed top navbar with high z-index */
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Ensure it stays above other content */
+  }
+  
+  /* Ensure the logo border color is consistent */
+  .header-logo-container {
+    border-color: darkgray; /* Adjust as necessary */
+  }
+  
+  /* Override navbar-light styles */
+  .navbar-light .nav-link {
+    color: #000; /* Initial color */
+  }
+  
+  /* Hover effect for navbar-light links */
+  .navbar-light .nav-link:hover {
+    color: #0056b3; /* Hover color */
+  }
+  
+  /* Adjust body padding to avoid overlap with fixed navbar */
+  body {
+    padding-top: 50px; /* Adjust if your navbar height is different */
+  }
+  
+  /* Minimum width for mat-menu content */
+  .mat-menu-content {
+    min-width: 200px;
+  }
+  
+  /* Cursor pointer for nav links */
+  .nav-link {
+    cursor: pointer;
+  }
+  
+  /* Header padding */
+  header {
+    padding: 5px; /* Reduce padding */
+  }
+
+  /* Custom container to override default container-fluid behavior */
+.custom-container {
+    width: 100%;
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    padding-left: 15px; /* Adjust padding as necessary */
+    padding-right: 15px; /* Adjust padding as necessary */
+    margin-left: auto;
+    margin-right: auto;
+  }
