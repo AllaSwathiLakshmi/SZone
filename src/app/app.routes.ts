@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { OrderComponent } from './order/order.component';
+import { NetworkingComponent } from './networking/networking.component';
 
 export const routes: Routes = [
     //{'path':'', component:HeaderComponent},
@@ -18,6 +19,7 @@ export const routes: Routes = [
   // { path: 'products', component: ProductsComponent },
   { 'path': 'gallery', component: GalleryComponent },
   { path: 'order-now', component: OrderComponent },
+  {path:'networking',component:NetworkingComponent}
 //   { 'path': 'networking', component: NetworkingComponent },
 //   { 'path': 'solar-energy', component: SolarEnergyComponent },
 ];
