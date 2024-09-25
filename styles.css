@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  .contact-section {
+    padding-top: 100px; /* Adjust this value according to the height of your header */
+  }
+
+  .hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .product-section {
+    margin-top: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-section {
+    margin-top: 40px;
+  }
+  
+  
