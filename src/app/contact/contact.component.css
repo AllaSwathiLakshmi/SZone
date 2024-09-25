@@ -1,0 +1,40 @@
+/* home.component.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-image {
+  width: 250px;
+  height: auto;
+}
+
+.section-content {
+  max-width: 600px;
+}
+.contact-section {
+  margin-top: 100px;
+  padding-top: 100px; /* Adjust this value according to the height of your header */
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons a:hover i {
+  color: #007bff; /* Change color on hover */
+}

@@ -1,0 +1,417 @@
+.carousel-item {
+    position: relative;
+  }
+  
+  
+  .carousel-card1 {
+    width: 100%; /* Card width adjusts to the page width */
+    max-width: 100%; /* Optional: set a maximum width for larger screens */
+    margin: 0 auto; /* Center the card horizontally */
+    /* Optional: Add padding for better spacing */
+    padding: -150px;
+  }
+  .carousel-image {
+    width: 100%;
+    height: 500px; /* Ensure aspect ratio is maintained */
+    object-fit: cover; /* Make sure the image covers the container */
+  }
+  .carousel-card {
+    border: 2px solid #000; /* Change color and width as needed */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 16px; /* Adjust padding as needed */
+    margin: 16px; /* Add margin to separate the card from other elements */
+  }
+  
+
+  .card-header {
+    border-bottom: 1px solid #000; /* Less width for bottom border */
+    padding-bottom: 8px; /* Adjust padding as needed */
+    margin-bottom: 16px; /* Space between header and content */
+  }
+  
+  .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-caption .logo2 {
+    margin-right: 10px;
+  }
+
+  
+  
+  
+  /* Ensure the carousel container has a fixed height */
+  .carousel {
+    height: 500px; /* Adjust to your desired height */
+  }
+  
+  /* Make sure the images fit within the container */
+  .carousel-image {
+   
+    object-fit: contain; /* Cover the container while preserving aspect ratio */
+  }
+  
+  /* Optional: Add styles for carousel captions */
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    right: 15px; /* Adjust as needed */
+    color: #fff; /* Adjust text color as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for better readability */
+    padding: 10px;
+    border-radius: 5px; /* Optional: Rounded corners for caption background */
+  }
+  
+  
+  /* .carousel-card {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    height: 500px; 
+  } */
+  
+   .carousel-inner {
+    /* height: 100%; */
+    height: 60vh; /* Ensure carousel takes up the full height of the card */
+  }
+  
+  .carousel-image {
+   
+    object-fit: cover; /* Ensure images cover the container without distortion */
+  }
+  
+  ---------------------------
+  .container {
+    width: 100%; /* Container takes full width of the screen */
+    max-width: 1200px; /* Optional: Set a max width for larger screens */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Optional: Add padding if needed */
+    border: 1px solid #ddd; /* Optional: Add a border to the container */
+    background-color: #fff; /* Optional: Add a background color */
+  }
+  .full-width-container {
+    width: 100vw; /* Full viewport width */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide overflow to maintain container size */
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: auto; /* Height adjusts based on the image aspect ratio */
+  }
+  
+  
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .flex-item {
+    flex: 1;
+  }
+  
+  .image {
+    max-width: 100%;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    padding-left: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  .container {
+    padding: 20px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* about-us.component.css */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #007BFF; /* Blue color */
+  }
+  
+  .image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  
+  .content h2 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .content p {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    max-width: 250px; /* Increase size as needed */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Ensure it displays correctly in layout */
+    margin: 0 auto;   /* Center the logo if needed */
+  }
+  
+  /* image-gallery.component.css */
+  /* Ensure equal length and width */
+  .img-fluid {
+    width: 100%;
+    height: 200px; /* Set a fixed height for equal dimensions */
+    object-fit: cover; /* Ensure the image fits well */
+  }
+  
+  /* Initial state for fade-in effect */
+  /* .fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  } */
+  
+  /* Active state when the element is in view */
+  /* .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  } */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  @keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px); /* Start from above */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at its final position */
+    }
+  }
+  
+  .drop-effect {
+    animation: drop 0.8s ease-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  h5 {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+  }
+  
+  /* .logo2 {
+    width: 60px; 
+    height: auto; 
+    margin-left: 8px; 
+    vertical-align: middle; 
+  } */
+  
+  /* .logo2 {
+    /* Adjust size as needed */
+    /* width: 90px;  */
+  
+     /* Maintain aspect ratio */
+    /* height: auto; */
+  
+    /* Space between text and logo */
+    /* margin-left: 8px;  */
+   
+    /* Align logo with text */
+    /* vertical-align: middle;  */
+    /* opacity: 0.9; */
+    /* display: block;  */
+  /* }  */
+  
+  .logo2 {
+    max-width: 250px; /* Increase size as needed */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Ensure it displays correctly in layout */
+    margin: 0 auto;   /* Center the logo if needed */
+    background-color: transparent;
+  }
+  
+  /* Optional: Responsive design adjustments */
+  @media (max-width: 768px) {
+    .carousel-card {
+      padding: 8px; /* Adjust padding on smaller screens */
+    }
+  
+    .logo2 {
+      width: 20px; /* Smaller logo size on smaller screens */
+    }
+  }
+  
+  @keyframes myAnim {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+  
+  .animate-image {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  
+  h5 {
+    display: flex;
+    align-items: center; /* Vertically align the logo */
+  }
+  
+  .logo2 {
+    margin-left: 10px; /* Adjust space between the logo and any text */
+  }
+  
+  /* section od details*/
+  body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .theme-header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333333;
+    border-bottom: 2px solid #00bfff;
+  }
+  
+  .header-title {
+    font-size: 3rem;
+    color: #00bfff;
+  }
+  
+  .section-container {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Remove margin between sections */
+    padding: 20px;
+    background-color: #262626;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .section-image {
+    width: 35%; /* Reduce image size */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    margin: 0 20px; /* Add margin around the image */
+    opacity: 0.8; /* Initial fade effect */
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  .section-image:hover,
+  .section-image:focus {
+    opacity: 1; /* Fully opaque on hover or focus */
+    filter: brightness(1.2); /* Brighten the image */
+  }
+  
+  .contact-section {
+    margin-top: 0px;
+    padding-top: 50px; /* Adjust this value according to the height of your header */
+  }
+  
+  .section-content {
+    width: 65%;
+  }
+  
+  .section-content h2 {
+    color: #00bfff;
+    font-size: 2rem;
+  }
+  
+  .section-content p {
+    color: #cccccc;
+    line-height: 1.5;
+  }
+  
+  /* Alternate sections */
+  .section-container:nth-child(odd) .section-image {
+    order: 2;
+    margin-left: 20px; /* Margin adjustments */
+  }
+  
+  .section-container:nth-child(odd) .section-content {
+    order: 1;
+  }
+  
+  .section-container:nth-child(even) .section-image {
+    margin-right: 20px;
+  }
+  
+  .section-container:nth-child(even) .section-content {
+    margin-left: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .section-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .section-content {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

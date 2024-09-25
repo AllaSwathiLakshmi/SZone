@@ -1,0 +1,78 @@
+/* .footer {
+    background-color: white;
+    color: #333; 
+    padding: 20px;
+  } */
+  .footer {
+    background-color: white;
+    color: dark;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .text-dark {
+    color: #333 !important; /* Ensure text color is applied */
+  }
+  /* .footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  } */
+  /* .footer a {
+    color: #007bff; 
+  } */
+  .footer a {
+    color: dark;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* css dot lines*/
+  .line {  border: none;
+    border-top: 2px dotted blue;
+    width: 60%; /* Adjust the width to control how much of the line is visible */
+    margin: 20px auto; /* Center the line and provide vertical spacing */
+    padding: 0; /* Remove padding to ensure the line doesn't extend beyond its container */
+  }
+
+  .logo {
+    max-width: 200px; 
+    /* Increase size as needed */
+    height: auto;    
+     /* Maintain aspect ratio */
+    display: block;  
+     /* Ensure it displays correctly in layout */
+    margin: 0 auto;  
+     /* Center the logo if needed */
+  }
+  .dark-blue {
+    color: darkblue !important; /* Ensure the dark blue color overrides other styles */
+  }
+
+
+  .footer {
+    background-color: #add8e6; /* Light blue background color */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
+  }
+
+
+  -------------------------------------
+ 
+  
+  .footer .container {
+    text-align: center;
+  }
+  
+
+
+  /* .footer .logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+  } */
+  
+ 
+
+  

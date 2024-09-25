@@ -1,0 +1,95 @@
+.hero-section {
+  position: relative;
+  background-color: #000; /* Fallback color */
+  background-image: url('/assets/image/037db4b9ca67db6f3cf9a290c78c421d.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact-section {
+  margin-top: 80px;
+ 
+}
+
+
+.hero-content {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adds shadow to the text */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+.hero-content .underline {
+  display: inline-block;
+  border-bottom: 2px solid white; /* The underline */
+  padding-bottom: 5px; /* Space between text and underline */
+  margin-top: 10px; /* Space above the word */
+  font-size: 2.5rem; /* Smaller font size for "Solutions" */
+}
+
+/* below image  css*/
+/* home.component.css */
+/* .home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-image {
+  width: 250px;
+  height: auto;
+}
+
+.section-content {
+  max-width: 600px;
+}
+.contact-section {
+  margin-top: 100px;
+  padding-top: 100px; /* Adjust this value according to the height of your header */
+
+  /* General Theme */
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .gallery-card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none; /* Remove any default shadow */
+    border: none; /* Remove any default border */
+  }
+  
+  .gallery-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none; /* Ensure no border around the image */
+  }
+  
+  .mat-card-content {
+    text-align: center;
+  }
+  
