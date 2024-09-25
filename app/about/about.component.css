@@ -1,0 +1,64 @@
+/* Breadcrumb Styles */
+.ui-breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .ui-bc-first a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+  }
+  
+  .ui-bc-first a:hover {
+    text-decoration: underline;
+  }
+  
+  .ui-bc-seperator {
+    margin: 0 5px;
+  }
+  
+  .ui-bc-last {
+    color: #6c757d; /* Bootstrap secondary color */
+  }
+  
+  /* General Styles */
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  ul li::before {
+    content: '•';
+    color: #007bff; /* Bootstrap primary color */
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .list-icon-right {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  

@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid custom-container">
+    <div class="header-logo-container d-flex justify-content-between align-items-center bg-white p-2">
+      <div class="d-flex align-items-center">
+        <a mat-button routerLink="/" class="nav-link mr-3">HOME</a>
+        <mat-menu #productsMenu="matMenu"  (focusout)="onFocusChange($event)">
+          <button mat-menu-item (click)="closeMenu()" routerLink="/complete-electrical-works">ELECTRICAL</button>
+          <button mat-menu-item (click)="closeMenu()" routerLink="/fire-hydrant-sprinklers">FIRE-HYDRANT-SPRINKLERS</button>
+          <button mat-menu-item (click)="closeMenu()" routerLink="/networking">NETWORKING</button>
+          <button mat-menu-item (click)="closeMenu()" routerLink="/solar-energy">SOLAR</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="productsMenu" #productsMenuTrigger="matMenuTrigger" class="nav-link mr-3">PRODUCTS</button>
+        <a mat-button routerLink="/gallery" (click)="closeMenu()"  class="nav-link mr-3">GALLERY</a>
+        <a mat-button routerLink="/gallery" (click)="closeMenu()"  class="nav-link mr-3">SERVICES</a>
+        <a mat-button routerLink="/contact" (click)="closeMenu()" class="nav-link mr-3">CONTACT US</a>
+        <a mat-button routerLink="/aboutUs" class="nav-link mr-3">ABOUT</a>
+      </div>
+      <div class="d-flex align-items-center ml-auto">
+        <img src="assets/image/SZ_Logo_11_LOGO3.jpeg" alt="logo" class="logo img-fluid">
+        <!-- <div class="d-flex flex-column align-items-end ml-3">
+          <p class="mb-0 text-green">Go Green</p>
+          <p class="mb-0 text-green">Go Solar</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</nav>
