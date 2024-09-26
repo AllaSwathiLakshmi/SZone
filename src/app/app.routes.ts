@@ -5,6 +5,10 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { OrderComponent } from './order/order.component';
 import { NetworkingComponent } from './networking/networking.component';
+import { SolarenergyComponent } from './solarenergy/solarenergy.component';
+import { FireHydrantsSprinklersComponent } from './fire-hydrants-sprinklers/fire-hydrants-sprinklers.component';
+import { ElectricalComponent } from './electrical/electrical.component';
+import { SecuritySystemsComponent } from './security-systems/security-systems.component';
 
 export const routes: Routes = [
     //{'path':'', component:HeaderComponent},
@@ -19,8 +23,10 @@ export const routes: Routes = [
   // { path: 'products', component: ProductsComponent },
   { 'path': 'gallery', component: GalleryComponent },
   { path: 'order-now', component: OrderComponent },
-  {path:'networking',component:NetworkingComponent}
-//   { 'path': 'networking', component: NetworkingComponent },
-//   { 'path': 'solar-energy', component: SolarEnergyComponent },
+  {path:'networking',component:NetworkingComponent},
+  { 'path': 'electrical', component: ElectricalComponent },
+  { 'path': 'solarenergy', component: SolarenergyComponent },
+  { 'path': 'security-systems', component: SecuritySystemsComponent },
+  { 'path': 'fire-hydrants-sprinklers', component: FireHydrantsSprinklersComponent }
 ];
 
