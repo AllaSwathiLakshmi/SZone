@@ -345,9 +345,10 @@
     align-items: center;
     margin: 0; /* Remove margin between sections */
     padding: 20px;
-    background-color: #262626;
+    background-color: white;
+    color:black ;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+     box-shadow: 0 4px 8px rgba(241, 235, 235, 0.5); 
   }
   
   .section-image {
