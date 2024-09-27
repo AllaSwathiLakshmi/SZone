@@ -112,3 +112,19 @@
     padding: 0;
     margin: 0;
   }
+
+
+  .mat-menu-item {
+    padding: 2px 2px !important; 
+    margin: 3px!important; 
+    line-height: 1.2 !important; 
+    padding: 5px 5px;
+    white-space: nowrap;
+    font-size:20px;
+    border: none !important;             /* Remove border from the mat-menu */
+  box-shadow: none !important;         /* Remove shadow to make it borderless */
+  } 
+  
+
+
+  

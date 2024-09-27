@@ -16,15 +16,15 @@
     object-fit: cover; /* Make sure the image covers the container */
   }
   .carousel-card {
-    border: 2px solid #000; /* Change color and width as needed */
-    border-radius: 8px; /* Optional: Add rounded corners */
-    padding: 16px; /* Adjust padding as needed */
-    margin: 16px; /* Add margin to separate the card from other elements */
+    border:none; /* Change color and width as needed */
+    border-radius: none; /* Optional: Add rounded corners */
+    padding: 0; /* Adjust padding as needed */
+    margin: 0; /* Add margin to separate the card from other elements */
   }
   
 
   .card-header {
-    border-bottom: 1px solid #000; /* Less width for bottom border */
+    border-bottom: none; /* Less width for bottom border */
     padding-bottom: 8px; /* Adjust padding as needed */
     margin-bottom: 16px; /* Space between header and content */
   }
