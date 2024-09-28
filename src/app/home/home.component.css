@@ -324,7 +324,7 @@
   /* section od details*/
   body {
     background-color: #1a1a1a;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-family: 'Arial', sans-serif;
   }
   
@@ -381,7 +381,7 @@
   }
   
   .section-content p {
-    color: #cccccc;
+    /* color: #cccccc; */
     line-height: 1.5;
   }
   
