@@ -3,12 +3,12 @@
     <div class="header-logo-container d-flex justify-content-between align-items-center bg-white p-2">
       <div class="d-flex align-items-center">
         <a mat-button routerLink="/" class="nav-link mr-3">HOME</a>
-        <mat-menu #productsMenu="matMenu"  (focusout)="onFocusChange($event)">
-          <button mat-menu-item (click)="closeMenu()" routerLink="/electrical">ELECTRICAL</button>
-          <button mat-menu-item (click)="closeMenu()" routerLink="/fire-hydrants-sprinklers">FIRE-HYDRANT-SPRINKLERS</button>
-          <button mat-menu-item (click)="closeMenu()" routerLink="/networking">NETWORKING</button>
-          <button mat-menu-item (click)="closeMenu()" routerLink="/solarenergy">SOLAR Energy</button>
-          <button mat-menu-item (click)="closeMenu()" routerLink="/security-systems">Security Systems</button>
+        <mat-menu #productsMenu="matMenu"  class="productList" (focusout)="onFocusChange($event)">
+          <button class="mat-menu-item" (click)="closeMenu()" routerLink="/electrical">ELECTRICAL</button>
+          <button class="mat-menu-item"  (click)="closeMenu()" routerLink="/fire-hydrants-sprinklers">FIRE-HYDRANT-SPRINKLERS</button>
+          <button class="mat-menu-item" (click)="closeMenu()" routerLink="/networking">NETWORKING</button>
+          <button class="mat-menu-item"  (click)="closeMenu()" routerLink="/solarenergy">SOLAR ENERGY</button>
+          <button class="mat-menu-item"  (click)="closeMenu()" routerLink="/security-systems">SECURITY SYSTEMS</button>
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="productsMenu" #productsMenuTrigger="matMenuTrigger" class="nav-link mr-3">PRODUCTS</button>
         <a mat-button routerLink="/gallery" (click)="closeMenu()"  class="nav-link mr-3">GALLERY</a>

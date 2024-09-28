@@ -16,15 +16,15 @@
     object-fit: cover; /* Make sure the image covers the container */
   }
   .carousel-card {
-    border: 2px solid #000; /* Change color and width as needed */
-    border-radius: 8px; /* Optional: Add rounded corners */
-    padding: 16px; /* Adjust padding as needed */
-    margin: 16px; /* Add margin to separate the card from other elements */
+    border:none; /* Change color and width as needed */
+    border-radius: none; /* Optional: Add rounded corners */
+    padding: 0; /* Adjust padding as needed */
+    margin: 0; /* Add margin to separate the card from other elements */
   }
   
 
   .card-header {
-    border-bottom: 1px solid #000; /* Less width for bottom border */
+    border-bottom: none; /* Less width for bottom border */
     padding-bottom: 8px; /* Adjust padding as needed */
     margin-bottom: 16px; /* Space between header and content */
   }
@@ -339,17 +339,17 @@
     font-size: 3rem;
     color: #00bfff;
   }
-  
+/*   
   .section-container {
     display: flex;
     align-items: center;
-    margin: 0; /* Remove margin between sections */
+    margin: 0; 
     padding: 20px;
     background-color: white;
     color:black ;
     border-radius: 10px;
      box-shadow: 0 4px 8px rgba(241, 235, 235, 0.5); 
-  }
+  } */
   
   .section-image {
     width: 35%; /* Reduce image size */
@@ -404,7 +404,7 @@
   }
   
   /* Responsive adjustments */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .section-container {
       flex-direction: column;
       text-align: center;
@@ -414,5 +414,64 @@
       width: 100%;
       margin: 10px 0;
     }
+  } */
+  @media (max-width: 768px) {
+    .section-container {
+      width: calc(50% - 20px); /* Two sections per row on tablets */
+    }
   }
+  
+  @media (max-width: 480px) {
+    .section-container {
+      width: 100%; /* Full width on mobile */
+    }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .section-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px); /* Three sections per row */
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .section-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Slightly round corners */
+  }
+  
+  .section-content {
+    padding: 15px;
+  }
+  
+  h2 {
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
   
