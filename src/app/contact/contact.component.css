@@ -1,5 +1,4 @@
-/* home.component.css */
-.home-container {
+/* .home-container {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -22,7 +21,7 @@
 }
 .contact-section {
   margin-top: 100px;
-  padding-top: 100px; /* Adjust this value according to the height of your header */
+  padding-top: 100px; 
 }
 
 .social-icons i {
@@ -36,5 +35,163 @@
 }
 
 .social-icons a:hover i {
-  color: #007bff; /* Change color on hover */
+  color: #007bff; 
+} */
+
+
+/*     siriiiiiiii.contact-container {
+  background-image: url('/assets/getintouch.jpg'); 
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 8px;
+  width: 450px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #e65c00;
+} */
+/* Container for the contact form */
+.contact-container {
+  background-image: url('/assets/getintouch.jpg');
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Contact form styling */
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 8px;
+  width: 450px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #e65c00;
+}
+
+/* Social Icons Section */
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6600;
+}
+
+/* Contact Details Section */
+.contact-details {
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+  }
+
+  .social-icons {
+    flex-direction: column;
+  }
+
+  .social-icons a {
+    margin-bottom: 10px;
+  }
 }
