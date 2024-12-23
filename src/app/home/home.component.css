@@ -415,17 +415,31 @@
       margin: 10px 0;
     }
   } */
+
   @media (max-width: 768px) {
     .section-container {
-      width: calc(50% - 20px); /* Two sections per row on tablets */
+      flex-direction: column; /* Stacks the image and text on smaller screens */
+      text-align: center;
+    }
+
+    .section-image, .section-content {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+
+  /* @media (max-width: 768px) {
+    .section-container {
+      width: calc(50% - 20px); 
+      /* Two sections per row on tablets 
     }
   }
   
   @media (max-width: 480px) {
     .section-container {
-      width: 100%; /* Full width on mobile */
+      width: 100%; 
+      /* Full width on mobile 
     }
-  }
+  } */
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -433,35 +447,58 @@
     background-color: #f4f4f4;
   }
   
-  .home-container {
+  /* .home-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
     gap: 20px;
+  } */
+  .home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between sections */
   }
   
-  .section-container {
+  /* .section-container {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: calc(33% - 20px); /* Three sections per row */
-    overflow: hidden;
-    transition: transform 0.2s;
-  }
+    /* overflow: hidden;
+    transition: transform 0.2s; */
+  /*} */
   
+  .section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Adds space between image and content */
+  }
+
   .section-container:hover {
     transform: scale(1.02);
   }
   
-  .section-image {
+  /* .section-image {
     width: 100%;
     height: auto;
-    border-radius: 15px; /* Slightly round corners */
+    border-radius: 15px; 
+    /* Slightly round corners 
+  } */
+
+  .section-image {
+    width: 40%; /* Set image width */
+    height: auto;
+    border-radius: 10px; /* Optional: Adds rounded corners to images */
   }
   
-  .section-content {
+  /* .section-content {
     padding: 15px;
+  } */
+  .section-content {
+    width: 60%; /* Set content width */
   }
   
   h2 {

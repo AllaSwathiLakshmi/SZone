@@ -13,10 +13,7 @@ export class HomeComponent implements OnInit,AfterViewInit{
   @Input() slides: any[] = [];
 
   constructor() { }
-  
-
   showImages: boolean = false;
-
   ngAfterViewInit() {
     // Delay the addition of the 'show' class to allow for the drop effect
     setTimeout(() => {
