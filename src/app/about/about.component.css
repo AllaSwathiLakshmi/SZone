@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   margin: 0;
   height: 100vh;
@@ -69,7 +69,7 @@ p {
   border: 2px solid #a8dadc;
   border-radius: 5px;
 }
-=======
+
 /* Breadcrumb Styles */
 .ui-breadcrumbs {
     display: flex;
@@ -135,4 +135,3 @@ p {
     margin-top: 20px;
     max-width: 100%;
   }
->>>>>>> b3f4c340220a0392ee3ecf18406b5ad9bbfe3a4a

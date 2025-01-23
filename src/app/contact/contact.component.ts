@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { VerticalCardComponent } from '../vertical-card/vertical-card.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [VerticalCardComponent,CommonModule],
+  imports: [CommonModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })

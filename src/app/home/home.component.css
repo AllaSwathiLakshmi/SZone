@@ -39,12 +39,6 @@
     margin-right: 10px;
   }
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> b3f4c340220a0392ee3ecf18406b5ad9bbfe3a4a
   /* Ensure the carousel container has a fixed height */
   .carousel {
     height: 500px; /* Adjust to your desired height */
@@ -105,13 +99,6 @@
     width: 100%;
     height: auto; /* Height adjusts based on the image aspect ratio */
   }
-<<<<<<< HEAD
-  
-=======
-
-
-
->>>>>>> b3f4c340220a0392ee3ecf18406b5ad9bbfe3a4a
   .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -140,12 +127,6 @@
     margin-bottom: 20px;
     /* margin-left: 50px;  */
   }
-<<<<<<< HEAD
-  
-  
-=======
-
->>>>>>> b3f4c340220a0392ee3ecf18406b5ad9bbfe3a4a
   p {
     font-size: 1.2rem;
      margin-left: 50px; 
