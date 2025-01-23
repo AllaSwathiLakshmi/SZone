@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, OnInit ,AfterViewInit, ElementRef, ViewChild} from '@angular/core';
+import { Component, Input, OnInit ,AfterViewInit} from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
