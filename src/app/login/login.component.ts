@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
@@ -6,7 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [MatCardModule, ReactiveFormsModule, MatFormFieldModule],
+  imports: [MatCardModule, ReactiveFormsModule, MatFormFieldModule,CommonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })

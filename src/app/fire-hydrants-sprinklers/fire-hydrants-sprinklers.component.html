@@ -1,1 +1,11 @@
-<p>fire-hydrants-sprinklers works!</p>
+<div class="product-container">
+    <div class="product-card" *ngFor="let product of products">
+      <img [src]="product.image" alt="{{ product.title }}" class="product-image" />
+      <a href="#" class="product-title">{{ product.title }}</a>
+      <p class="product-location">{{ product.location }}</p>
+      <p class="product-price">
+        {{ product.price ? ('₹ ' + product.price) : 'Ask Price' }}
+      </p>
+    </div>
+  </div>
+  
