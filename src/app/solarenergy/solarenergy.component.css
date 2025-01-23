@@ -38,12 +38,14 @@
     background-color: #f9f9f9;
     margin: 100px;
     width: 100%;
+    
   }
   
   .solar-energy h1 {
     text-align: center;
-    color: #ff9800;
-    font-size: 30px;
+    color:rgb(161, 228, 26);
+    font-size: 40px;
+    margin-top: 10px;
   }
   
   .solar-energy p {
