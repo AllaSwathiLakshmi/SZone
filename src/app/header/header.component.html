@@ -3,7 +3,7 @@
     <div class="header-logo-container d-flex justify-content-between align-items-center bg-white p-2">
       <div class="d-flex align-items-center">
         <a mat-button routerLink="/" class="nav-link mr-3">HOME</a>
-        
+
         <mat-menu #productsMenu="matMenu"  class="productList" >
           <button mat-menu-item (click)="closeMenu()" routerLink="/electrical">ELECTRICAL</button>
           <button mat-menu-item (click)="closeMenu()" routerLink="/fire-hydrants-sprinklers">FIRE-HYDRANT-SPRINKLERS</button>
@@ -15,7 +15,7 @@
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="productsMenu" #productsMenuTrigger="matMenuTrigger" class="nav-link mr-3">PRODUCTS</button>
         <a mat-button routerLink="/gallery" (click)="closeMenu()"  class="nav-link mr-3">GALLERY</a>
-        <a mat-button routerLink="/gallery" (click)="closeMenu()"  class="nav-link mr-3">SERVICES</a>
+        <a mat-button routerLink="/services" (click)="closeMenu()"  class="nav-link mr-3">SERVICES</a>
         <a mat-button routerLink="/contact" (click)="closeMenu()" class="nav-link mr-3">CONTACT US</a>
         <a mat-button routerLink="/aboutUs" class="nav-link mr-3">ABOUT</a>
       </div>

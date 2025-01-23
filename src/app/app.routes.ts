@@ -9,6 +9,7 @@ import { SolarenergyComponent } from './solarenergy/solarenergy.component';
 import { FireHydrantsSprinklersComponent } from './fire-hydrants-sprinklers/fire-hydrants-sprinklers.component';
 import { ElectricalComponent } from './electrical/electrical.component';
 import { SecuritySystemsComponent } from './security-systems/security-systems.component';
+import { ServicesComponent } from './services/services.component';
 
 export const routes: Routes = [
     //{'path':'', component:HeaderComponent},
@@ -22,6 +23,7 @@ export const routes: Routes = [
   { 'path': '', redirectTo: '/email', pathMatch: 'full' },
   // { path: 'products', component: ProductsComponent },
   { 'path': 'gallery', component: GalleryComponent },
+  {path:'services',component:ServicesComponent},
   { path: 'order-now', component: OrderComponent },
   {path:'networking',component:NetworkingComponent},
   { 'path': 'electrical', component: ElectricalComponent },

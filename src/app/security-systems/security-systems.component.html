@@ -1,1 +1,25 @@
-<p>security-systems works!</p>
+<div class="security-system-container">
+  <h1>Solar Security System</h1>
+  <div class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Anti-theft Mounting Systems</li>
+      <li>Surveillance Cameras with Remote Monitoring</li>
+      <li>Motion Detection and Alarms</li>
+      <li>Geo-Fencing Technology</li>
+      <li>AI-Based Threat Detection</li>
+    </ul>
+  </div>
+
+   <div>
+      <h1><marquee>Available Products</marquee></h1>
+  </div>
+  <div class="products">
+    <div class="product-card" *ngFor="let product of products">
+      <img [src]="product.image" alt="{{ product.name }}" />
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <button (click)="onInquire(Contacts)">Inquire Now</button>
+    </div>
+</div>
+
