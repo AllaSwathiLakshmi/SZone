@@ -1,3 +1,4 @@
+
 .solar-products {
   font-family: Arial, sans-serif;
   margin: 50px;
@@ -67,3 +68,103 @@ button{
   background-color:rgb(72, 72, 192);
   color: white;
 }
+/* .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .section {
+    display: flex;
+    align-items: flex-start;
+     margin-bottom: 20px; 
+     font-size: 20px;
+    
+  }
+  mat-card {
+    padding: 20px;
+    margin: 80px;
+    width: 900px;
+    height: auto;
+    margin-right: 900px;
+    margin-left: 500px;
+  }
+  h1{
+    color:palevioletred;
+    
+  }
+    
+  .section-image {
+    max-width: 800px;
+    margin-right: 20px;
+  }
+  p {
+    margin: 10px 0;
+  } */
+  
+  
+  .solar-energy {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 100px;
+    width: 100%;
+  }
+  
+  .solar-energy h1 {
+    text-align: center;
+    color: #ff9800;
+    font-size: 30px;
+  }
+  
+  .solar-energy p {
+    text-align: justify;
+    color: #555;
+    font-size: 20px;
+  }
+  
+  .solar-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  .solar-type {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+    font-size: 20px;
+  }
+  
+  .solar-type:hover {
+    transform: scale(1.05);
+  }
+  
+  .solar-type img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .solar-type h3 {
+    margin: 15px 0 10px;
+    color: #ff5722;
+    font-size: 30px;
+  }
+  
+  .solar-type p {
+    color: #666;
+  }
+  h2{
+    color: purple;
+    font-size: 30px;
+  }
+   
+

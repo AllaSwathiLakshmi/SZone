@@ -1,13 +1,85 @@
-<div class="solar-products">
-  <h1 class="header"><b>SOLAR SYSTEM PRODUCTS</b></h1>
-  <div class="products-list">
-    <div class="product-card" *ngFor="let system of systems">
-      <img [src]="system.image" alt="{{ system.title }}" class="product-image" />
-      <h2 class="product-title">{{ system.title }}</h2>
-      <ul class="product-description">
-        <li *ngFor="let desc of system.description">{{ desc }}</li>
-      </ul>
-      <button (click)="onInquire(Contacts)">Inquire Now</button>
+<!-- <mat-card >
+    <div  class="content">
+       <h1><b>SOLAR PANELS</b></h1>
+       <div>
+        <img src="assets\solar energy.png" alt="CCTV Image" class="section-image">
+         <div class="section">
+       <p>Solar panels are devices that convert sunlight into electricity using photovoltaic (PV) cells. 
+        They are a cornerstone of renewable energy, providing a clean, sustainable, and cost-effective solution for power generation.</p>     
+    </div>
+    </div>
+    </div>
+</mat-card>
+<mat-card >
+    <div  class="content">
+       <h1><b>SOLAR INVERTERS</b></h1>
+       <div>
+        <img src="assets\solarinverter.png" alt="CCTV Image" class="section-image">
+         <div class="section">
+       <p>A solar inverter is a crucial component of a solar power system that converts the direct current (DC) electricity generated 
+        by solar panels into alternating current (AC) electricity, which is used by most appliances and the electrical grid. 
+        It acts as a bridge between the solar panels and the devices that consume electricity.</p>     
+    </div>
+    </div>
+    </div>
+</mat-card> -->
+
+<div class="solar-energy">
+    <div class="solar-types">
+        <div class="solar-type">
+          <h1><u><b>SOLAR ENERGY</b></u></h1>
+          <img src="assets\Screenshot 2025-01-22 152817.png" alt="Solar Energy">
+
+    <p>
+      Solar energy is a type of renewable energy that comes from the sun in the form of light, heat, and ultraviolet rays. 
+      Solar energy can be used to generate electricity or capture thermal energy.
+      Solar energy is the energy derived from the Sun's radiation. It can be harnessed in two primary forms: solar photovoltaic
+       (PV) energy (to generate electricity) and solar thermal energy (to capture heat). Solar energy is a clean, renewable resource 
+       that has the potential to power homes, industries, and entire cities while reducing dependence on fossil fuels.
+    </p>
+  
+    <h2>Types of Solar Energy</h2>
+    <div class="solar-types">
+      <div class="solar-type">
+        <img src="assets\solar energy.png" alt="Photovoltaic">
+        <h3><b>PHOTOVOLTAIC</b></h3>
+        <p>
+          
+            Photovoltaic (PV) technology is a method of converting sunlight directly into electricity using materials that exhibit 
+            the photovoltaic effect. This process is the foundation of solar panels and is widely used for generating clean, renewable
+             energy.  Converts light into electricity. This is done by using solar panels to capture the sun's rays and create
+              an electric current.
+        </p>
+      </div>
+      <div class="solar-type">
+        <img src="assets\solarthermal.png" alt="Solar Thermal">
+        <h3><b>SOLAR THERMAL</b></h3>
+        <p>
+            Solar thermal technology uses the sun's heat to generate energy, either by directly heating a substance (like water or air)
+             or through a more advanced process where heat is converted into electricity. Unlike photovoltaic systems that convert 
+             light into electricity, solar thermal systems focus on capturing and using thermal (heat) energy from the sun.
+             Captures heat from the sun's radiation and converts it into thermal energy. This heat can be used to heat water or air.
+        </p>
+      </div>
+      <div class="solar-type">
+        <img src="assets\CSP.png" alt="Concentrated Solar">
+        <h3><b>CONCENTRATED SOLAR POWER</b></h3>
+        <p>
+          Concentrated Solar Power (CSP) is a technology that uses mirrors or lenses to concentrate a large area of sunlight onto a 
+          small focal point to generate heat. This heat is then used to produce steam, which drives turbines connected to generators
+           to produce electricity. CSP is mainly used in large-scale power plants to provide renewable energy to the grid.
+        </p>
+      </div>
+      <div class="solar-type">
+        <img src="assets\Passive solar.png" alt="Passive Solar">
+        <h3><b>PASSIVE SOLAR</b></h3>
+        <p>
+            Passive solar refers to the use of the sun's energy for heating and cooling purposes without relying on mechanical devices,
+             such as pumps or fans. Instead, passive solar systems are designed to capture, store, and distribute sunlight naturally 
+             through the building's architecture and materials. Uses the sun's energy without mechanical devices.
+              For example, using south-facing windows to provide natural light and heat for a home.
+        </p>
+      </div>
     </div>
   </div>
-</div>
+  

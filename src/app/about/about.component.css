@@ -1,4 +1,5 @@
 
+
 /* Breadcrumb Styles */
 .ui-breadcrumbs {
     display: flex;
@@ -64,6 +65,7 @@
     margin-top: 20px;
     max-width: 100%;
   }
+
 body {
   margin: 0;
   height: 100vh;

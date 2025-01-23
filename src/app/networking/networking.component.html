@@ -1,12 +1,13 @@
 <div class="content">
-  <h1>Our Systems</h1>
+  <h1>Our Networking Products</h1>
   <div class="systems-container">
     <div *ngFor="let system of systems" class="system-card">
       <h2>{{ system.title }}</h2>
-      <img [src]="system.image" [alt]="system.title" />
+      <img [src]="system.image" [alt]="system.title" (click)="enquire(system.title)" />
       <div class="description">
         <p *ngFor="let desc of system.description">{{ desc }}</p>
       </div>
+      <button (click)="enquire(system.title)">ENQUIRE</button>
     </div>
   </div>
 </div>

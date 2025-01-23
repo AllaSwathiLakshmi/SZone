@@ -35,17 +35,17 @@ h1:hover {
 }
 
 .system-card {
-  max-width: 870px;
+  max-width: 400px;
   background: #f9f9f9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  transition: transform 0.2s;
+  /* transition: transform 0.2s; */
 }
 
-.system-card:hover {
-  transform: scale(1.05);
+.system-card img:hover {
+  transform: scale(1.25);
 }
 
 .system-card h2 {
@@ -81,3 +81,20 @@ h1:hover {
     max-width: 90%;
   }
 }
+.system-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: cornflowerblue;;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.system-card button:hover {
+  background-color: #3b5dc9;
+  transform: scale(1.15);
+  font-weight: bold; 
+}
+
