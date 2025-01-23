@@ -1,101 +1,69 @@
-/* .content {
-    display: flex;
-    flex-direction: column;
-  }
-  .section {
-    display: flex;
-    align-items: flex-start;
-     margin-bottom: 20px; 
-     font-size: 20px;
-    
-  }
-  mat-card {
-    padding: 20px;
-    margin: 80px;
-    width: 900px;
-    height: auto;
-    margin-right: 900px;
-    margin-left: 500px;
-  }
-  h1{
-    color:palevioletred;
-    
-  }
-    
-  .section-image {
-    max-width: 800px;
-    margin-right: 20px;
-  }
-  p {
-    margin: 10px 0;
-  } */
-  
-  
-  .solar-energy {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin: 100px;
-    width: 100%;
-    
-  }
-  
-  .solar-energy h1 {
-    text-align: center;
-    color:rgb(161, 228, 26);
-    font-size: 40px;
-    margin-top: 10px;
-  }
-  
-  .solar-energy p {
-    text-align: justify;
-    color: #555;
-    font-size: 20px;
-  }
-  
-  .solar-types {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    
-  }
-  
-  .solar-type {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 900px;
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.3s;
-    font-size: 20px;
-  }
-  
-  .solar-type:hover {
-    transform: scale(1.05);
-  }
-  
-  .solar-type img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  .solar-type h3 {
-    margin: 15px 0 10px;
-    color: #ff5722;
-    font-size: 30px;
-  }
-  
-  .solar-type p {
-    color: #666;
-  }
-  h2{
-    color: purple;
-    font-size: 30px;
-  }
-   
+.solar-products {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  font-size:larger;
+  margin-top: 100px;
+  /* margin: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:larger;
+  font-weight: 400;
+  margin-top: 100px; */
+}
+
+.header {
+  text-align: center;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 350px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin: 10px 0;
+  font-weight: 10px;
+}
+
+.product-description {
+  list-style: none;
+  padding: 0;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.product-description li {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+button{
+  background-color:rgb(72, 72, 192);
+  color: white;
+}
