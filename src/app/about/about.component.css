@@ -1,6 +1,10 @@
 
 
+<<<<<<< HEAD
 /* Breadcrumb Styles */
+=======
+
+>>>>>>> 037b1acf9767119cb2637e270ce15225b7a859b2
 .ui-breadcrumbs {
     display: flex;
     align-items: center;
@@ -65,7 +69,10 @@
     margin-top: 20px;
     max-width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 037b1acf9767119cb2637e270ce15225b7a859b2
 body {
   margin: 0;
   height: 100vh;
