@@ -121,7 +121,7 @@ export class SolarenergyComponent {
   ];
   Contacts:string="+919005642832"
   onInquire(Contacts: string) {
-    alert(`Contact Us: ${Contacts}`);
+    alert(`Contact Us on: ${Contacts}. we will contact you soon.`);
 
   }
 }
