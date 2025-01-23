@@ -1,8 +1,6 @@
 .carousel-item {
     position: relative;
   }
-
-
   .carousel-card1 {
     width: 100%; /* Card width adjusts to the page width */
     max-width: 100%; /* Optional: set a maximum width for larger screens */
@@ -39,6 +37,12 @@
     margin-right: 10px;
   }
 
+<<<<<<<<< Temporary merge branch 1
+=========
+
+
+
+>>>>>>>>> Temporary merge branch 2
   /* Ensure the carousel container has a fixed height */
   .carousel {
     height: 500px; /* Adjust to your desired height */
@@ -97,8 +101,14 @@
   .carousel-inner {
     width: 100%;
     height: auto; /* Height adjusts based on the image aspect ratio */
-  
   }
+<<<<<<<<< Temporary merge branch 1
+
+=========
+
+
+
+>>>>>>>>> Temporary merge branch 2
   .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -127,9 +137,15 @@
     margin-bottom: 20px;
     /* margin-left: 50px;  */
   }
+<<<<<<<<< Temporary merge branch 1
+
+
+=========
+
+>>>>>>>>> Temporary merge branch 2
   p {
     font-size: 1.2rem;
-     margin-left: 50px; 
+     margin-left: 50px;
   }
   .container {
     padding: 20px;
