@@ -1,8 +1,6 @@
 .carousel-item {
     position: relative;
   }
-
-
   .carousel-card1 {
     width: 100%; /* Card width adjusts to the page width */
     max-width: 100%; /* Optional: set a maximum width for larger screens */
@@ -38,10 +36,6 @@
   .carousel-caption .logo2 {
     margin-right: 10px;
   }
-
-
-
-
   /* Ensure the carousel container has a fixed height */
   .carousel {
     height: 500px; /* Adjust to your desired height */
@@ -83,7 +77,6 @@
     object-fit: cover; /* Ensure images cover the container without distortion */
   }
 
-  ---------------------------
   .container {
     width: 100%; /* Container takes full width of the screen */
     max-width: 1200px; /* Optional: Set a max width for larger screens */
@@ -102,9 +95,6 @@
     width: 100%;
     height: auto; /* Height adjusts based on the image aspect ratio */
   }
-
-
-
   .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -131,10 +121,12 @@
 
   h2 {
     margin-bottom: 20px;
+    /* margin-left: 50px;  */
   }
 
   p {
     font-size: 1.2rem;
+     margin-left: 50px;
   }
   .container {
     padding: 20px;
